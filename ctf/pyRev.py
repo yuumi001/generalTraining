@@ -29,7 +29,7 @@ def crypt(sor):
   fusc = "696"
   for i in range(len(sor)):
     sro.append(sor[i]+str(i))
-    sro.reverse()
+  sro.reverse()
   for i in sro:
     fusc+=i
   return fusc
